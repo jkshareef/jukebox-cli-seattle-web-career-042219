@@ -61,4 +61,22 @@ end
 
 def run(my_songs)
   #this method is the same as in jukebox.rb
+   help
+  input = ""
+  while input.downcase != "exit"
+    puts "Please enter a command:"
+    input = gets.chomp
+    if input.downcase == "list"
+      list(songs)
+    elsif input.downcase == "play"
+      play(songs)
+    elsif input.downcase == "help"
+      help
+    elsif input.downcase == "exit"
+      exit_jukebox
+      break
+    else
+      puts "Invalid input, please try again"
+    end
+  end
 end
