@@ -8,8 +8,8 @@
 # "Hamburg" => /jukebox-cli/audio/Emerald-Park/03.mp3',
 # "Guiding Light" => /jukebox-cli/audio/Emerald-Park/04.mp3',
 # "Wolf" => /jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
+# "Blue" => /jukebox-cli/audio/Emerald-Park/06.mp3',
+# "Graduation Failed" => /jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
 def help
