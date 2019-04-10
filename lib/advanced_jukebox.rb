@@ -44,13 +44,12 @@ def play(my_songs)
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
   
-  array = Array.new
-  my_songs.each do |key, value|
-    array.push(key)
-  end
-  
   puts "Please enter a song name"
   song_name = gets.chomp
+  
+  if my_songs.keys.include?(song_name)
+    
+    
     
   
 end
