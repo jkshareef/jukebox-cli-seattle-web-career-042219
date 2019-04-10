@@ -49,7 +49,8 @@ def play(my_songs)
     array.push(key)
   end
   
-  puts ""
+  puts "Please enter a song name"
+  song_name = gets.chomp
     
   
 end
