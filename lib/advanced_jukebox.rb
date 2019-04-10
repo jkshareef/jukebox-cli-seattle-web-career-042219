@@ -4,12 +4,12 @@
 
 my_songs = {
 "Go Go GO" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/01.mp3,
-"LiberTeens" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/02.mp3,
-"Hamburg" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/03.mp3,
-"Guiding Light" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/04.mp3,
- "Wolf" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/05.mp3,
- "Blue" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/06.mp3,
- "Graduation Failed" => jukebox-cli-seattle-web-career-04221/audio/Emerald-Park/07.mp3
+"LiberTeens" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/02.mp3,
+"Hamburg" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/03.mp3,
+"Guiding Light" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/04.mp3,
+ "Wolf" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/05.mp3,
+ "Blue" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/06.mp3,
+ "Graduation Failed" => jukebox-cli-seattle-web-career-042219/audio/Emerald-Park/07.mp3
  }
 
 def help
