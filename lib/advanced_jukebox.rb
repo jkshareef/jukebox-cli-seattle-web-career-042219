@@ -48,14 +48,15 @@ def play(my_songs)
   song_name = gets.chomp
   
   if my_songs.keys.include?(song_name)
-    
-    
-    
-  
+    open my_songs[song_name]
+  else 
+    puts "Invalid input. Please try again."
+  end
 end
 
 def exit_jukebox
   #this method is the same as in jukebox.rb
+  puts "Goodbye"
 end
 
 def run(my_songs)
